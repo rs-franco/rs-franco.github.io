@@ -2,7 +2,7 @@ name: Deploy Docusaurus to GitHub Pages
 
 on:
   push:
-    branches: [main]   # 你默认分支不是 main 的话改成对应名字
+    branches: [master]   # 你默认分支不是 main 的话改成对应名字
   workflow_dispatch:    # 支持手动触发
 
 jobs:
